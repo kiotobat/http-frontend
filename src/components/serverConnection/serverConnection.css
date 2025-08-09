@@ -1,5 +1,11 @@
 .server-connection {
-  padding: 50px 10px;
+  /* Центрирование по вертикали и горизонтали с учётом отступов body (50px сверху и снизу) */
+  min-height: calc(100vh - 100px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 10px;
   font-size: 30px;
   text-align: center;
   color: red;

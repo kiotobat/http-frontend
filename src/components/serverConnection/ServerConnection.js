@@ -4,7 +4,7 @@ export default class ServerConnection {
   constructor() {
     this.message = document.createElement('div');
     this.message.classList.add('server-connection');
-    this.message.textContent = 'Сервер не найден :(';
+    this.message.textContent = 'Сервер не найден';
   }
 
   render(container) {
