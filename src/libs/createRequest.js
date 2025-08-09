@@ -1,6 +1,6 @@
 export default async function createRequest(options) {
   // const baseUrl = 'http://localhost:7070/?'; // локальный сервер
-  const baseUrl = 'https://http-frontend.onrender.com/?'; // деплой на render.com
+  const baseUrl = 'https://http-backend.onrender.com/?'; // деплой на render.com
 
   const { method, url, body } = options;
 
