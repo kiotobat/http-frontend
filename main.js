@@ -5990,7 +5990,7 @@ function _createRequest() {
       while (1) switch (_context.p = _context.n) {
         case 0:
           // const baseUrl = 'http://localhost:7070/?'; // локальный сервер
-          baseUrl = 'https://http-backend.onrender.com/?'; // деплой на render.com
+          baseUrl = 'https://http-backend-hez4.onrender.com/?'; // деплой на render.com
           method = options.method, url = options.url, body = options.body;
           _context.p = 1;
           _context.n = 2;
@@ -6285,7 +6285,7 @@ var ServerConnection = /*#__PURE__*/function () {
     ServerConnection_classCallCheck(this, ServerConnection);
     this.message = document.createElement('div');
     this.message.classList.add('server-connection');
-    this.message.textContent = 'Сервер не найден :(';
+    this.message.textContent = 'Сервер не найден';
   }
   return ServerConnection_createClass(ServerConnection, [{
     key: "render",
