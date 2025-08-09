@@ -1,0 +1,19 @@
+.btn_add-ticket {
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  margin-left: auto;
+  margin-bottom: 25px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  font-size: 32px;
+  line-height: 1;
+}
+
+.btn_add-ticket__plus {
+  display: block;
+  line-height: 1;
+  transform: translateY(-3px);
+}
