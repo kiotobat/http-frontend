@@ -5989,8 +5989,7 @@ function _createRequest() {
     return _regenerator().w(function (_context) {
       while (1) switch (_context.p = _context.n) {
         case 0:
-          // const baseUrl = 'http://localhost:7070/?'; // локальный сервер
-          baseUrl = 'https://http-backend-hez4.onrender.com/?'; // деплой на render.com
+          baseUrl = 'https://http-backend-fmjj.onrender.com'; // деплой на render.com
           method = options.method, url = options.url, body = options.body;
           _context.p = 1;
           _context.n = 2;
